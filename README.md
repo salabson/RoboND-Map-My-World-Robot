@@ -4,3 +4,5 @@ Simultaneous Localization and Mapping (SLAM) in ROS to build both 2D occupancy g
 octomaps from the provided simulated environment as well as personal built environment using
 mobile robot. RTAB-Map SLAM algorithm uses data collected from vision sensor to localize the
 robot and map the environment and also uses a process called loop closure to determine whether the robot has seen a location before.
+
+## [Link to Rtabmap database in my Google Drive](https://drive.google.com/open?id=1a1bOgV17lL1ZaITwrdh_DuOibPiso5RU)

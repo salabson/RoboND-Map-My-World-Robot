@@ -6,3 +6,22 @@ mobile robot. RTAB-Map SLAM algorithm uses data collected from vision sensor to 
 robot and map the environment and also uses a process called loop closure to determine whether the robot has seen a location before.
 
 ## [Link to Rtabmap database in my Google Drive](https://drive.google.com/open?id=1a1bOgV17lL1ZaITwrdh_DuOibPiso5RU)
+
+### How to clone this repository
+```
+$ cd ~/catkin_ws/src
+
+$ git clone https://github.com/salabson/RoboND-Map-My-World-Robot.git
+```
+
+### How to use this repository
+```
+$ cd ~/catkin_ws/src/scripts
+$ ./rtab_run.sh
+Enter target world destination or d for default:
+$ d
+```
+
+#### RTAB-Map Visualization Tools - Database Viewer
+Stop mapping.launch in its termial and run below command:
+`$ rtabmap-databaseViewer ~/.ros/rtabmap.db `
